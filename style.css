@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", serif;
+    font-size: 16px;
+}
+
+.headerContainer {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.menuBar {
+    display: flex;
+    color: black;
+    font-size: 20px;
+    gap: 2rem;
+    font-weight: bold;
+}
+
+.menuBar li {
+    list-style: none;
+}
+
+.menuBar li a {
+    text-decoration: none;
+}
+.menuBar li a:hover { color:black;}
+.menuBar li a:active { color:red;}
+.menuBar li a:visited {color:purple;}
+.menuBar li a:link {color:black;}
+
+.mainSection {
+    width: 100%;
+    background-image: url("images/banner-redimensionat.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:700px;
+}
+
+.mainSubSection {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-weight:400;
+}
+
+.mainHeader {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+.subHeader {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.para {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 0 8rem;
+}
+
+.section1, .section2 {
+    width: 100%;
+    
+}
+
+.subSection1, .subSection2 {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub1Sec, .sub1img, .sub2Sec, .sub2img {
+    width: 45%;
+}   
+
+.sub1img img, .sub2img img {
+    width: 90%;
+    border-radius: 1rem;
+}
+
+.subSection1:hover, .subSection2:hover {
+    background-color: rgba(88, 88, 88, 0.2);
+    border-radius: 1rem;
+    transition: 1s;
+}
