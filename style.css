@@ -105,3 +105,29 @@ body {
     border-radius: 1rem;
     transition: 1s;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2rem 0 ;
+    padding: 2rem 0 ;
+    background-color: rgba(88, 88, 88, 0.2);
+}
+.footer div, .footer ul {
+    width: 30%;
+}
+
+.footer div img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+.footer ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
